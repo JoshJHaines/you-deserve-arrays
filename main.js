@@ -18,6 +18,14 @@ function getIndex3(arr){
   }
 }
 
+function isLongList(arr){
+  if (arr.length >= 10){
+    return true
+  } else {
+    return false
+  }
+}
+
 
 
 
