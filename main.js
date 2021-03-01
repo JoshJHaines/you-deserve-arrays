@@ -26,6 +26,14 @@ function isLongList(arr){
   }
 }
 
+function firstItemIsNumber(arr){
+  if (typeof arr[0] === "number"){
+    return true
+  } else {
+    return false
+  }
+}
+
 
 
 
