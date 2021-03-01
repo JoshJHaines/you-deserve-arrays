@@ -11,7 +11,11 @@ function getLastItemFrom(arr){
 }
 
 function getIndex3(arr){
+  if (arr.length >= 4){
   return arr[3]
+  } else {
+    return arr[arr.length-1]
+  }
 }
 
 
